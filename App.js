@@ -6,15 +6,29 @@ import {
     View
 } from 'react-native';
 
+class Greeting extends Component {
+    render() {
+        return (
+            <Text>Hello {this.props.name}!</Text>
+        );
+    }
+}
+
 class HelloWorld extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={styles.hello}>Hello, World</Text>
+                <View style={styles.hello}>
+                    <Greeting name={权晓峰}/>
+                </View>
+                <View style={styles.hello}>
+                    <Greeting name={王桐}/>
+                </View>
             </View>
         )
     }
 }
+
 var styles = StyleSheet.create({
     container: {
         flex: 1,
