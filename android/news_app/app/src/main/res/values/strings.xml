@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">新阅</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="tab_a">新闻</string>
+    <string name="tab_b">聊天</string>
+    <string name="tab_c">通讯录</string>
+    <string name="tab_d">发现</string>
+    <string name="tab_e">我的</string>
+
+    <string name="regist_sucess">恭喜您，注册成功！%1$s秒后自动跳转至登录界面或者点击下方按钮立即跳转登录界面！</string>
+    <string name="jumping">正在跳转！</string>
+    <string name="jump_to_login">跳转</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+
+    <string name="search">搜索</string>
+
+    //环信注册
+    <string name="Registered_successfully">注册成功</string>
+    <string name="network_anomalies">网络异常，请检查网络！</string>
+    <string name="User_already_exists">用户已存在！</string>
+    <string name="registration_failed_without_permission">注册失败，无权限！</string>
+    <string name="Registration_failed">注册失败</string>
+    <string name="illegal_user_name">用户名不合法</string>
+</resources>
